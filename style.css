@@ -3,9 +3,11 @@
     padding: 0;
 }
 
-head {
-    background-color: gray;
+body{
+    background-color: rgba(243, 236, 236, 0.897);
     margin: 100vh;
+    width: 100%;
+    padding: 20px;
 }
 
 .attribution {
