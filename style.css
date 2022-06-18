@@ -4,37 +4,38 @@
 }
 
 body{
+    margin: 0;
+    height: 100vh;
     display: flex;
-    margin: auto;
-    padding: 100px;
     justify-content: center;
     align-items: center;
-    font-family: Big Shoulders Display;
-    font-size: 15px;
-    color: hsl(0, 0%, 95%); 
-    width: 100%; 
-    
 }
 
 .quadro-principal{
     display: flex;
     flex-direction: row;
+    justify-items: end;
+    font-family: Big Shoulders Display;
+    font-size: 15px;
+    color: hsl(0, 0%, 95%); 
+    height: 650px;
+    border: solid 2px black;
+    border-radius: 25px;
 
 }
 
 .planos {
-    margin: auto;
-    padding: 20px;
-    height: 50vh;
     display: flex;
+    padding: 20px;
     justify-content: space-between;
-    align-items: center;
+    
     flex-direction: column;
     
 }
 
 .sedans{
     background-color: hsl(31, 77%, 52%);
+    border-radius: 25px 0 0 25px;
     
 }
 
@@ -44,6 +45,12 @@ body{
 
 .luxo {
     background-color: hsl(179, 100%, 13%);
+    border-radius: 0 25px 25px 0;
+}
+
+img {
+    height: 35px;
+    width: 35px;
 }
 
 .attribution {
